@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'sohne';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Fonts/soehne-test-leicht.woff'); /* IE9 Compat Modes */
+    src: local('sohne'), local('sohne'),
+         url('../../Fonts/soehne-test-leicht.woff') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../Fonts/soehne-test-leicht.woff') format('woff2'), /* Super Modern Browsers */
+         url('../../Fonts/soehne-test-leicht.woff') format('woff'), /* Modern Browsers */
+         url('../../Fonts/soehne-test-leicht.woff') format('truetype'), /* Safari, Android, iOS */
+         url('../../Fonts/soehne-test-leicht.woff') format('svg'); /* Legacy iOS */
+  }
+
+
+
+header{
+    background-color: #fff;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 5px 50px 0;
+}
+
+.nav-bar>.logo>span>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar>.logo>span:nth-child(2){
+    margin-left: 10px;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+.nav-bar>nav{
+    display: flex;
+    
+}
+
+.nav-bar>nav>ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+.nav-bar>nav>ul>li{
+    margin: 10px;
+    font-family: sohne;
+    font-size: 14px;
+}
+
+.nav-bar>nav>ul>.active{
+   background-color: #1D8918;
+   color: white;
+   padding: 8px 10px ;
+   border-radius: 5px;
+
+}
+.nav-bar>nav>ul>.active>a{
+    color: white;
+ }
+.nav-bar>nav>ul>li>a{
+    text-decoration: none;
+}
+.nav-bar>nav>ul>li>a>picture>img{
+    width: 16px;
+}
+.nav-bar>nav>ul>li:nth-child(5)>a>picture>img{
+    width: 30px;
+    border-radius: 16px;
+}

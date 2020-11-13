@@ -1,0 +1,84 @@
+.posts-section{
+    height: 550px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+
+.grid-posts{
+    width: 70%;
+    display: flex;
+    margin: 40px;
+}
+.grid-posts>.main-post{
+    width: 45%;
+}
+
+.to-follow{
+    width: 30%;
+    margin: 40px;
+}
+
+.to-follow>.creator{
+    display: flex;
+    margin-bottom: 30px;
+}
+.to-follow>.creator>button{
+background: none;
+    border: 1px solid #2B9535;
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    color: #2B9535;
+    cursor: pointer;
+    margin: 0;
+}
+.to-follow>.creator>picture>img{
+    border-radius: 50px;
+}
+
+.to-follow>.creator>.creator-info{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+}
+.to-follow>.creator>.creator-info>h3{
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.to-follow>.creator>.creator-info>span{
+    font-size: 11px;
+}
+
+.list-posts{
+    margin-left: 20px;
+}
+
+.post-info>h3{
+    font-family: sohne;
+    width: 250px;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.post-info>p{
+    
+    font-size: 13px;
+}
+
+.posts-section>.grid-posts>.main-post>.Post>img{
+    width: 350px;
+}
+
+.grid-posts>.list-posts>.Post>img{
+    width: 100px!important;
+    height: 100px;
+}
+.grid-posts>.list-posts>.Post{
+display: flex;
+flex-direction: row-reverse;
+padding: 10px;
+}
